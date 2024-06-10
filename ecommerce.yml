@@ -1,6 +1,6 @@
 token:
   secret: user_token_length_grater_128_over_required_therfore_meaningless_string_make
-  expiration_time: 86400123
+  expiration_time: 86400000
 
 gateway:
   ip: 61.81.231.68
