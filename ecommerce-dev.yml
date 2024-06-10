@@ -1,5 +1,5 @@
 token:
-  secret: user_token_length_grater_128_over_required_therfore_meaningless_string_make-default
+  secret: user_token_length_grater_128_over_required_therfore_meaningless_string_make-dev
   expiration_time: 86400000
 
 gateway:
