@@ -1,0 +1,9 @@
+token:
+  secret: user_token_length_grater_128_over_required_therfore_meaningless_string_make-native_user_service_dev
+  expiration_time: 86400000
+
+gateway:
+  ip: 61.81.231.68
+
+noojun:
+  test: abcdefghijklmnopqrstuvwxyz!@#!@#
