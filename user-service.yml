@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    #password: '{cipher}ad4243df206ba2cce745d69bea77146d7a7dbb363a4ca9eabdade99963c3906c'
+    password: '{cipher}AQBMrzxJGJQeZbafLLfYVfrfBRbN5Y8zi+HIOqm6hkjj2VdRerW3n50tvvP+O0AZlG5f/9avgoqF5ag3YOtY1zm7Waerja2M+uKVk6/UajCEV73j9qRAgu2uwX3puL/jEB0LybTuoFnxbrxDPnbZj92PiaLLZgM3RrdyMyhcAJ9VkzGTpOTdCfI0QpdRKo1STNKjMmcPUGN+1gZ3CI7PusJ2BTltqwVNKV3IyzKgN6SGfTTBFKr7lEgf1/47xuZXnFri8rEOzukNS2mlhx0o9C8UQkjhUO8siJPwO9eZAi9oywpwQ/nUpFMhBy3ZTSuAG+//63RVpylPy0OiX6Vgix1IpjZRCDn8zV1KB9dIhajl2LTS0W8O6HK3FuHdN3hs4Ls='
+
+#token:
+#  expiration_time: 86400000
+  #secret: user_token_length_grater_128_over_required_therfore_meaningless_string_make
+  #secret: '{cipher}AQAHrZ53gdti02GovXIDmRpmS1CnvWanVlXP/bUyWHRor8sarFDwBnptKNccJFqkBgJcSw4VplnhY5nhNxs/lswD7tiFWNjMn37ffcYodu2HcATKX7r02EurvEPC0PgpTt1Jj1ENavsH0OkzvYS3jBdxtSEqGiwftBdRHZENHqZeRr6Gmwwrdf9WPLhEMhcIEZlar4PSGTpWOJZEw2E/2AemX+hA6Tj5DEFICSenzErgZg61DgZeN+xFlxmpTV+jyPvHew/+RxvAieUuoaQ58kIA8SBp896ta/9vmRjvrwFJl4SFjTV6NIBMNfAoZn1JK7Yba8g4VsrjU6juxH9QURg1x3OID1v0+mwodqKVDLo5gU1tt7UOoSgNt8kOGXF5I/nLB5hHFYrxmjk81JS95P9s4UaVVEpznoI1I9SBKrbrcfzMhU+Fc/7h3UiJP7NDzYf4U2IMSl/NzGw1O3CoAoya'
+
+#gateway:
+#  ip: 61.81.231.68
+
+order_service:
+  #url: http://127.0.0.1:8000/order-service/%s/orders
+  url: http://ORDER-SERVICE/order-service/%s/orders
+  exception:
+    #orders_is_empty: User's orders is empty.
+    orders_is_empty: There is no item.
+
+
+noojun:
+  test: abcdefghijklmnopqrstuvwxyz!@#!@#
